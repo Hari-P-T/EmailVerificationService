@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrate.EmailVerification.Api", "Integrate.EmailVerification.Api\Integrate.EmailVerification.Api.csproj", "{5E232C6D-FC49-4950-A686-DA5B02499E35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrate.EmailVerification.Tests", "Integrate.EmailVerification.Tests\Integrate.EmailVerification.Tests.csproj", "{368E0151-F595-48AC-9B3A-1F84A8DE951F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrate.EmailVerification.Application", "Integrate.EmailVerification.Application\Integrate.EmailVerification.Application.csproj", "{F3DF1D73-1542-41E5-BD8F-1DB3001F8EC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrate.EmailVerification.Infrastructure", "Integrate.EmailVerification.Infrastructure\Integrate.EmailVerification.Infrastructure.csproj", "{83983CB7-B6E5-47B7-9ED4-11173D572FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrate.EmailVerification.Migrations", "Integrate.EmailVerification.Migrations\Integrate.EmailVerification.Migrations.csproj", "{4BD17950-5645-4D9D-B9FD-E4708874058D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integrate.EmailVerification.Models", "Integrate.EmailVerification.Models\Integrate.EmailVerification.Models.csproj", "{9EE12EAE-9A82-C93D-B863-46C4638AB7EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E232C6D-FC49-4950-A686-DA5B02499E35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E232C6D-FC49-4950-A686-DA5B02499E35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E232C6D-FC49-4950-A686-DA5B02499E35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E232C6D-FC49-4950-A686-DA5B02499E35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{368E0151-F595-48AC-9B3A-1F84A8DE951F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368E0151-F595-48AC-9B3A-1F84A8DE951F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368E0151-F595-48AC-9B3A-1F84A8DE951F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368E0151-F595-48AC-9B3A-1F84A8DE951F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3DF1D73-1542-41E5-BD8F-1DB3001F8EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DF1D73-1542-41E5-BD8F-1DB3001F8EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DF1D73-1542-41E5-BD8F-1DB3001F8EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DF1D73-1542-41E5-BD8F-1DB3001F8EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83983CB7-B6E5-47B7-9ED4-11173D572FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83983CB7-B6E5-47B7-9ED4-11173D572FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83983CB7-B6E5-47B7-9ED4-11173D572FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83983CB7-B6E5-47B7-9ED4-11173D572FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BD17950-5645-4D9D-B9FD-E4708874058D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD17950-5645-4D9D-B9FD-E4708874058D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD17950-5645-4D9D-B9FD-E4708874058D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD17950-5645-4D9D-B9FD-E4708874058D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE12EAE-9A82-C93D-B863-46C4638AB7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE12EAE-9A82-C93D-B863-46C4638AB7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE12EAE-9A82-C93D-B863-46C4638AB7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE12EAE-9A82-C93D-B863-46C4638AB7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9BD6231-64C3-41E2-8C7E-FA3A6B9EE84D}
+	EndGlobalSection
+EndGlobal

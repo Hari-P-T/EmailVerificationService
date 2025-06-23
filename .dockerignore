@@ -1,0 +1,43 @@
+# Ignore project build output (all projects)
+**/bin/
+**/obj/
+**/packages/
+**/.vs/
+**/.idea/
+
+# User-specific and IDE files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.sln.iml
+
+# Logs and build cache
+*.log
+*.cache
+logs/
+
+# Secrets and env files
+.env
+.env.*
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Git and VCS
+.git
+.gitignore
+.gitattributes
+
+# Docker-specific
+docker-compose.override.yml
+
+# EF cache
+.dotnet-ef/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (if using front-end projects)
+node_modules/
